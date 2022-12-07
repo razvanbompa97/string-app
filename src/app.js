@@ -16,10 +16,10 @@ const getOrderedList = (stringList, string) => {
       return;
     }
 
-    const verifiUniqeuPosition = listArray.filter(
+    const verifyUniqeuPosition = listArray.filter(
       (item) => item.position === matchedElement.index
     );
-    if (verifiUniqeuPosition.length) {
+    if (verifyUniqeuPosition.length) {
       return;
     }
 
